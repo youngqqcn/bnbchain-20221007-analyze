@@ -13,7 +13,7 @@ https://bscscan.com/tx/0xa84f85e1afc3e1b8ed5111ba16e11325f8fc5d6081cb6958becd6a3
 黑客从地址 0x975d9bd9928f398c7e01f6ba236816fa558cd94b 获得100BNB，应该是某个交易所的地址？
 
 第3笔交易：
-https://bscscan.com/tx/0x1b7b6b151435b2a1d925e4165ff5ff886d72de54c3bcfb6e0a602033520179a5   
+https://bscscan.com/tx/0x1b7b6b151435b2a1d925e4165ff5ff886d72de54c3bcfb6e0a602033520179a5
 
 兑换了`4.5870157`个`Venus BNB (vBNB)`
 
@@ -64,7 +64,7 @@ BSC：https://bscscan.com/tx/0xe83050fefadd55d2e9c72bfeacc334b28e1116506f2af256e
 ETH：
 
 
-至此，准备工作已完成。黑客发现还多出0.1BNB，于是又充了0.1BNB到交易所。黑客当时的心理可能是：“粒粒皆辛苦，不能浪费，万一失手也不能留给币安。” 
+至此，准备工作已完成。黑客发现还多出0.1BNB，于是又充了0.1BNB到交易所。黑客当时的心理可能是：“粒粒皆辛苦，不能浪费，万一失手也不能留给币安。”
 这就好比，地上有10个亿，和1毛钱，先捡起1毛钱再捡起10个亿。
 https://bscscan.com/tx/0xb64a99866ba0c727482919ceee149b761005c4d40c11dc1676ad02cad9cb5d57
 ---
@@ -86,7 +86,7 @@ https://bscscan.com/tx/0xebf83628ba893d35b496121fb8201666b8e09f3cbadf0e269162baa
 然后将BNB转为Venus: vBNB Token, 为资金跨链做准备
 https://bscscan.com/tx/0xf9d911624b5294652ec7f0b9fa7817f2a5953860411325e7f6e73d87f14a70ab
 
-然后有借成 62,500,000 BUSD， 
+然后有借成 62,500,000 BUSD，
 https://bscscan.com/tx/0xbda0344dc9c96bbc5cab60bae8c7622195e68c392cf45f64ecb7c8c5806dd3be
 
 又借了50,000,000 BSC-USD：
@@ -128,7 +128,7 @@ function handlePackage(bytes calldata payload, bytes calldata proof, uint64 heig
     }
 ```
 
-其中 `0x65`就是merkle proof预编译合约地址， 
+其中 `0x65`就是merkle proof预编译合约地址，
 
 
 
@@ -206,6 +206,14 @@ func (c *iavlMerkleProofValidate) Run(input []byte) (result []byte, err error) {
 }
 ```
 
+
+
+
+
+
+# cosmos/iavl关于BUG的修复
+
+> https://github.com/cosmos/iavl/pull/582/files#diff-8900a93a6d474bd8973beabf67b04383bde602d3bf747ac747eaaae531bcf889
 
 
 
